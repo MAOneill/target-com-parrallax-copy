@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>target parralax test</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="parrallax.css" rel="stylesheet" type="text/css">
+
+
+<script language = "javascript" type = "text/javascript">
+<!-- Start hiding JavaScript statements
+
+  
+
+function getMouseData(event) {
+  if(event) {
+    this.x = event.clientX; 
+    this.y = event.clientY; 
+  } else {
+    this.x = event.pageX; 
+    this.y = event.pageY; 
+  }
+}
+
+
+function ProcessEvent(event) {
+  var e = new getMouseData(event);
+
+  var figureid = document.getElementById("myFigure");
+
+  rx = e.y * (6 / 1000) - 3;
+  ry = e.x * ((-10) / 1920) + 5; 
+figureid.style.transform = "rotatex(" + rx +"deg) rotatey(" + ry + "deg)";
+figureid.style.WebkitTransform = "rotatex(" + rx +"deg) rotatey(" + ry + "deg)";
+
+  
+}
+
+
+// End hiding JavaScript statements -->
+
+
+
+</script>
+
+ 
+</head>
+
+<body onmousemove = "ProcessEvent(event)">
+
+<div class="cd-background-wrapper">
+	<figure class="cd-floating-background" id="myFigure">
+		<img src="img/background.jpg" alt="image-1">
+		<img src="img/boy-left.png" alt="image-2">
+		<img src="img/petals.png" alt="image-3">
+	</figure>
+</div>
+
+</body>
+</html>

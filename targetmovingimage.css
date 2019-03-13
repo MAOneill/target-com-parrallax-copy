@@ -1,0 +1,173 @@
+﻿@-webkit-keyframes dash-animation {
+  
+	
+	0% {
+    left:0px;
+ top: 0px; }
+
+  
+	50% {
+    left:600px;
+ top :300px; }
+
+	100% {
+    left:-600px;
+  }
+
+  
+}
+
+@-webkit-keyframes dash-animation2 {
+  
+	
+	0% {
+    left:0px;
+ top: 0px; }
+
+  
+	50% {
+    left:-600px;
+ top :300px; }
+
+	100% {
+    left:0px;
+ top:0px; }
+
+  
+}
+
+@-webkit-keyframes dash-animation3 {
+  
+	
+	0% {
+    
+ top: 0px; }
+
+  
+	50% {
+   
+ top:300px; }
+
+	100% {
+  
+ top: 0px; }
+
+  
+}
+
+
+@-webkit-keyframes dash-animation4 {
+  
+	
+	0% {
+    
+ top: 0px; }
+
+  
+	20% {
+   
+ top:-300px; }
+
+	75% {
+  
+ top: -310px; }
+
+  
+	100% {top: -330px;}
+}
+
+.main div {
+	position:absolute;
+	}
+
+.mid-boy-right {
+	position:absolute;
+	left:550px;
+	top:335px;
+}
+
+.mid-boy-left {
+	position:absolute;
+	left:240px;  
+	top:320px;
+	}
+
+
+.mid-girl-right {
+	position:absolute;
+	top: 320px;  
+	left: 500px;  
+	overflow:hidden;
+}
+
+.front-girl {
+	position:absolute;
+	top: 250px;  
+	left: 750px;
+	}
+
+.mid-girl-left {
+	position:absolute;
+	top: 350px;  
+	left: 150px;
+	overflow:hidden;
+	}
+
+.back-petals {
+	position:absolute;
+	left:200px;
+}
+
+.main:hover div:nth-child(2) {
+//	-webkit-transform: rotate(45deg) ;
+
+	animation:dash-animation 35s infinite;
+	-webkit-animation:dash-animation 35s infinite;
+}
+
+
+.main:hover div:nth-child(4) {
+
+	animation:dash-animation2 350s infinite;
+	-webkit-animation:dash-animation2 350s infinite;
+}
+
+.main:hover div:nth-child(3) {
+
+	animation:dash-animation3 35s infinite;
+	-webkit-animation:dash-animation3 35s infinite;
+}
+
+
+.main:hover div:nth-child(7) {
+
+	animation:dash-animation4 35s infinite;
+	-webkit-animation:dash-animation4 35s infinite;
+}
+
+body {
+	width:1200px;
+	height:782px;
+	margin:auto;
+}
+
+.main {
+	width:1200px;
+	height:782px;
+	margin:auto;
+	overflow:hidden;  /* for this to work, the position must be relative */
+	position:relative;
+}
+
+/* all the div sections within main are positioned absolutely */
+/* if you do this with an inline style, the animations won't work */
+
+
+
+/* and then all sub elements need position: absolute within the relative container. */
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+
+
+<div id='prize-teaser'> 
+ <div class="header">     
+<div class="header-inner">       
+<div class='parallax'>       
+
+  <div class='back-layer' data-parallax='0.2'>    
+       <div class='room-wrapper'>         
+    <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/background.jpg'></span>      
+     </div>          
+
+ <div class='boy-wrapper-right'>             
+<span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/mid-boy-right.png'></span>           </div>      
+
+     <div class='boy-wrapper-left'>             <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/mid-boy-left.png'></span>           </div>     
+
+   </div>         <div class='mid-layer-back'>           <div class='petals-wrapper-back' data-parallax='0.3'>             <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/back-petals.png'></span>           </div> 
+
+          <div class='petals-wrapper-mid2' data-parallax='0.4'>             <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/mid-petals-02.png'></span>           </div>   
+
+
+        <div class='petals-wrapper-mid1' data-parallax='0.5'>             <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/mid-petals-01.png'></span>           </div>         </div>        
+
+ <div class='mid-layer-front' data-parallax='0.45'>           
+
+<div class='girl-wrapper-right'>             <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/mid-girl-right.png'></span>           </div>   
+
+
+        <div class='girl-wrapper-left'>             <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/mid-girl-left.png'></span>           </div>       
+
+
+  </div>         <div class='hero-wrapper' data-parallax='0.6'>           <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/front-girl.png'></span>         </div>       
+
+
+  <div class='petals-wrapper-front' data-parallax='1'>           <span class='image-holder' data-src='//static.targetimg1.com/2015/ol/01/prize/assets/img/header/front-petals.png'></span>         </div>       
+
+
+</div>  <!--end of parallax -->
+</div>  <!--end of header-inner -->
+</div>  <!--end of header  -->
+</div>  <!-- end of prize-teaser -->
+
